@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.pricesTable {
+    width:60% !important;
+}
+.counterBox {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.time {
+    font-size:4rem;
+}
+.timeButton {
+    margin-right: 5px;
+}
+.symbol {
+    margin-right: 5%;
+    font-size: 1.3rem;
+}
+.code{
+    color:gray;
+}
+.increased {
+    color: green !important;
+}
+
+.decreased {
+    color: red !important;
+}
+.time-box {
+    text-align: center;
+    margin-right: 1vw;
+}
+.time-box button {
+    width: 50px;
+}
